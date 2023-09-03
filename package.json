@@ -1,0 +1,17 @@
+{
+	"name": "canxium-mining-calc",
+	"version": "2.0.0",
+	"author": "Canximan <founder@canxium.org>",
+	"description": "Mining profit calculator",
+	"license": "MIT",
+	"private": true,
+	"repository": "https://github.com/canximan/canxium-mining-calculator.git",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"devDependencies": {
+	},
+	"dependencies": {
+		"express": "^4.17.2"
+	}
+}
