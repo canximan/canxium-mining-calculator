@@ -24,7 +24,7 @@ $(document).ready(function() {
         if (minerHashrate != 0) {
           let timeToMine = hashRequired / (minerHashrate * 1000000 * secondADay);
           let cost = timeToMine * 24 * consumption * electricity / 1000;
-          $("#timeToMine").text((timeToMine).toFixed(2) + " Day");
+          $("#timeToMine").text((timeToMine).toFixed(6) + " Day");
           $("#cost").text((cost).toFixed(2) + " USD/CAU");
           $("#totalCost").text("" + (cost/0.5).toFixed(2) + " ~ " + (cost/0.2).toFixed(2) + " USD/CAU");
         }
@@ -49,7 +49,7 @@ $(document).ready(function() {
         if (minerHashrate != 0) {
           let timeToMine = hashRequired / (minerHashrate * 1000000 * secondADay);
           let cost = timeToMine * 24 * consumption * electricity / 1000;
-          $("#timeToMine").text((timeToMine).toFixed(2) + " Day");
+          $("#timeToMine").text((timeToMine).toFixed(6) + " Day");
           $("#cost").text((cost).toFixed(2) + " USD/CAU");
           $("#totalCost").text("" + (cost/0.5).toFixed(2) + " ~ " + (cost/0.2).toFixed(2) + " USD/CAU");
         }
