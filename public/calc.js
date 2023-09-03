@@ -55,36 +55,4 @@ $(document).ready(function() {
         }
       }
     };
-
-    // angular.module('ether', ['ngResource']).config(['$controllerProvider', function($controllerProvider) {
-    //   $controllerProvider.allowGlobals();
-    // }]);
-
-    // function EtherMiningCtrl($scope, $http, $log) {
-
-    //   $scope.ethPrice = ethereumStats.priceUsd;
-    //   $scope.netHashGH = (ethereumStats.difficulty / ethereumStats.blockTime) / 1e9;
-    //   $scope.blockTime = ethereumStats.blockTime;
-    //   $scope.earnings = {};
-
-    //   $scope.computeProfits = function() {
-    //     var userRatio = $scope.userHash * 1e6 / ($scope.netHashGH * 1e9);
-    //     var blocksPerMin = 60.0 / $scope.blockTime;
-    //     var blockReward = 3.0;
-    //     var ethPerMin = blocksPerMin * blockReward;
-    //     $scope.earnings.min = userRatio * ethPerMin;
-    //     $scope.earnings.hour = $scope.earnings.min * 60;
-    //     $scope.earnings.day = $scope.earnings.hour * 24;
-    //     $scope.earnings.week = $scope.earnings.day * 7;
-    //     $scope.earnings.month = $scope.earnings.day * 30;
-    //     $scope.earnings.year = $scope.earnings.day * 365;
-    //   };
-
-    //   $scope.updateUserHash = function() {
-    //     var value = $scope.userChoice;
-    //     $scope.userHash = value;
-    //     $scope.computeProfits();
-    //   };
-    // }
-
 });
